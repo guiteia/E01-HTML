@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manual</title>
+    </head>
+    <body>
+        <div>
+            <h2>O que são estruturas condicionais?</h2>
+            <p>Chamamos de estruturas condicionais as instruções para testar se uma condição é verdadeira ou não.</p>
+            Entre as principais estruturas condicionais em C temos:
+            <ul>
+                <li>If</li>
+                <li>If-else</li>
+                <li>Switch</li>
+            </ul>
+
+            <div style="margin-bottom: 40px; margin-top: 40px;">
+                <h2>A estrutura if</h2>
+                <p>A estrutura if é uma das principais, usamos ela da seguinte forma: if (condição) {instrução;}</p>
+                <h4>Exemplo</h4>
+                if (num==1) {<br>
+                    printf("Você escolheu a opção 1");<br>
+                }<br><br>
+
+                Nesse caso, SE o usuário digitar o número 1, a mensagem impressa será "Você escolheu a opção 1"
+            </div>
+
+            <div style="margin-bottom: 40px;">
+                <h2>A estrutura if-else</h2>
+                <p>Com a estrutura if-else, caso a entrada não satisfaça a condição inicial, podemos usar o else como uma alternativa. </p>
+                <h4>Exemplo</h4>
+                if (num==1) {<br>
+                    printf("Você escolheu a opção 1");<br>
+                }<br>
+                else {<br>
+                    printf("Você não escolheu a opção 1");<br>
+                }<br><br>
+
+                Nesse caso, SE o usuário digitar o número 1, a mensagem impressa será "Você escolheu a opção 1", mas se digitar outro valor a mensagem a ser imprimida será "Você não escolheu a opção 1".
+            </div>
+            
+            <div style="margin-bottom: 40px;">
+                <h2>A estrutura switch</h2>
+                <p>Com a estrutura switch podemos analisar vários valores e com base nestes dizer qual será a instrução. </p>
+                <h4>Exemplo</h4>
+                switch (num) <br>
+                {<br>
+                case 1:<br>
+                    printf("Você escolheu a opção 1");<br>
+                break;<br><br>
+
+                case 2:<br>
+                    printf("Você escolheu a opção 2");<br>
+                break;<br><br>
+
+                case 3:<br>
+                    printf("Você escolheu a opção 3");<br>
+                break;<br>
+                }<br>
+
+                Nesse caso, SE o usuário digitar o número 1, a mensagem impressa será "Você escolheu a opção 1" e se digitar o número 2 receberá a mensagem "Você escolheu a opção 2", o mesmo acontece se o usuário digitar 3. O switch é útil quando podemos aceitar diferentes valores.
+            </div>
+            
+
+        </div>
+    </body>
+</html>
